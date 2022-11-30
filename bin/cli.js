@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import {roll} from '/lib/roll.js';  
-import minimist from "minimist";
+import {roll} from "../lib/roll.js";  
+import minimist from 'minimist';
 
 //assign sides(6), dice(2), and rolls (1) to arguments or original values
 const args = minimist(process.argv.slice(2))
