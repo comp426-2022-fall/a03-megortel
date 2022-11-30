@@ -7,7 +7,7 @@
     "roll-dice": "./bin/cli/js"
   },
   "scripts": {
-    "test": "node ./bin/cli.js"
+    "test": "npm ./bin/cli.js"
   },
   "repository": {
     "type": "git",
